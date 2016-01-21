@@ -1,0 +1,67 @@
+{
+  "name": "taco-template",
+  "version": "0.1.0",
+  "description": "Barebone Starter (AngularJS+Webpack+Bootstrap3+Font Awesome+Sass)",
+  "authors": [
+    "Tyler Wright"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/vallosdck/taco-template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vallosdck/taco-template"
+  },
+  "keywords": [
+    "webpack",
+    "angularjs",
+    "barebone",
+    "starter",
+    "font-awesome",
+    "bootstrap3",
+    "sass"
+  ],
+  "scripts": {
+    "init": "npm install",
+    "start": "webpack-dev-server --inline --hot",
+    "deploy": "webpack -p --config webpack-production.config.js"
+  },
+  "dependencies": {
+    "angular": "^1.4.8",
+    "angular-animate": "^1.4.8",
+    "angular-cookies": "^1.4.8",
+    "angular-resource": "^1.4.8",
+    "angular-sanitize": "^1.4.8",
+    "angular-ui-bootstrap": "^1.1.0",
+    "angular-ui-router": "^1.0.0-alpha0",
+    "bootstrap-sass": "^3.3.6",
+    "font-awesome": "^4.5.0",
+    "less": "^2.5.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.1",
+    "bootstrap-loader": "^1.0.5",
+    "bootstrap-sass-loader": "^1.0.10",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "font-awesome-webpack": "0.0.4",
+    "html-webpack-plugin": "^1.7.0",
+    "image-webpack-loader": "^1.6.3",
+    "jshint": "^2.9.1",
+    "jshint-loader": "^0.8.3",
+    "less-loader": "^2.2.2",
+    "node-libs-browser": "^0.5.3",
+    "node-sass": "^3.4.2",
+    "open-browser-webpack-plugin": "0.0.2",
+    "postcss": "^5.0.14",
+    "postcss-loader": "^0.8.0",
+    "raw-loader": "^0.5.1",
+    "resolve-url-loader": "^1.4.3",
+    "sass-loader": "^3.1.2",
+    "strip-loader": "^0.1.1",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}

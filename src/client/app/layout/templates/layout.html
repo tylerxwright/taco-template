@@ -1,0 +1,9 @@
+<div ng-controller="LayoutController as vm">
+	<div ng-include="'app/layout/templates/header.html'"></div>
+
+	<div class="container-fluid">
+		<div ui-view></div>
+	</div>
+
+	<div ng-include="'app/layout/templates/footer.html'"></div>
+</div>
